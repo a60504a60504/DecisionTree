@@ -20,9 +20,26 @@ Project2 DecisionTree
     - 取30% Midterm Score
     - 取30% Final Exam Score
     - 取10% Attendance Rate
+    - 上述加總成績超過60分設定為好學生
 ---
 ![產生資料](https://github.com/a60504a60504/DecisionTree/blob/master/Pictures/df.PNG)
 
- # 2. Decision Tree 訓練
+# 2. Decision Tree 訓練
     TrainAndAnalysysData.py 產生 Source.gv.pdf(DecisionTree圖)
 ![DecisionTree](https://github.com/a60504a60504/DecisionTree/blob/master/Pictures/DecisionTree.PNG)
+
+# 3. 分析結果
+
+* 根據Decision Tree分類
+* 好學生:
+    * 期末成績<=59.5    55.5<期中成績<=82.5     小考平均<=76.5
+    * 期末成績<=24      期中成績>82.5           小考平均>82.5
+    * 期末成績>24       期中成績>82.5
+    * 期末成績>59.5     期中成績>26             小考平均<=54        學生ID>11.5
+    * 期末成績>59.5     期中成績>26             小考平均>54
+* 壞學生:
+    * 期末成績<=59.5    期中成績<=82.5          小考平均<=76.5
+    * 期末成績<=59.5    期中成績<=55.5          小考平均<=76.5
+    * 期末成績<=24      期中成績>82.5           小考平均<=82.5
+    * 期末成績>59.5     期中成績<=26
+    * 期末成績>59.5     期中成績>26             小考平均<=54        學生ID<=11.5
