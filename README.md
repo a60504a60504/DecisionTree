@@ -7,7 +7,7 @@ Project2 DecisionTree
 3. 分析與比較
 
 # 1.資料產生
-    GenerateData.py
+    GenerateData.py 產生 Train.data(json格式)
 - 'StudentID':學生ID，每筆資料獨立
 - 'Gender':學生性別，0為男生，1為女生
 - 'Test Score':小考平均成績，所有學生成績以70為中心點取標準差為10的常態分布資料
@@ -24,5 +24,5 @@ Project2 DecisionTree
 ![產生資料](https://github.com/a60504a60504/DecisionTree/blob/master/Pictures/df.PNG)
 
  # 2. Decision Tree 訓練
-    TrainAndAnalysysData.py
+    TrainAndAnalysysData.py 產生 Source.gv.pdf(DecisionTree圖)
 ![DecisionTree](https://github.com/a60504a60504/DecisionTree/blob/master/Pictures/DecisionTree.PNG)
