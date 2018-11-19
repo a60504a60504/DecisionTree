@@ -25,4 +25,4 @@ Project2 DecisionTree
 
  # 2. Decision Tree 訓練
     TrainAndAnalysysData.py
-![pdf](https://github.com/a60504a60504/DecisionTree/blob/master/Pictures/df.PNG)
+![DecisionTree](https://github.com/a60504a60504/DecisionTree/blob/master/Pictures/DecisionTree.PNG)
