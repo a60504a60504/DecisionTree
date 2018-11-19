@@ -8,7 +8,7 @@ Project2 DecisionTree
 
 # 1.資料產生
     GenerateData.py
-'StudentID':學生ID，每筆資料獨立
+- 'StudentID':學生ID，每筆資料獨立
 'Gender':學生性別，0為男生，1為女生
 'Test Score':小考平均成績，所有學生成績以70為中心點取標準差為10的常態分布資料
 'Attendance Rate':出席率，平均分布
