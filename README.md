@@ -20,7 +20,9 @@ Project2 DecisionTree
     - 取30% Midterm Score
     - 取30% Final Exam Score
     - 取10% Attendance Rate
- 
+---
+![產生資料](https://github.com/a60504a60504/DecisionTree/blob/master/Pictures/df.PNG)
+
  # 2. Decision Tree 訓練
     TrainAndAnalysysData.py
-![pdf](https://github.com/a60504a60504/DecisionTree/blob/master/Source.gv.pdf)
+![pdf](https://github.com/a60504a60504/DecisionTree/blob/master/Pictures/df.PNG)
