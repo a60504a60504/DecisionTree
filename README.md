@@ -14,13 +14,13 @@ Project2 DecisionTree
 - 'Attendance Rate':出席率，平均分布
 - 'Midterm Score':期中成績，平均分布
 - 'Final Exam Score':期末成績，平均分布
-
+---
 - 'Ans':設定0為壞學生，1為好學生
--       取30% Test Score
--         30% Midterm Score
--         30% Final Exam Score
--         10% Attendance Rate
+    - 取30% Test Score
+    - 取30% Midterm Score
+    - 取30% Final Exam Score
+    - 取10% Attendance Rate
  
  # 2. Decision Tree 訓練
     TrainAndAnalysysData.py
- ![image](picture or gif url)
+ ![image](https://github.com/a60504a60504/DecisionTree/blob/master/Source.gv.pdf)
